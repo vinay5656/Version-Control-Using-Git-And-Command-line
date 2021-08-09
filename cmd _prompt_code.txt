@@ -1,0 +1,338 @@
+Microsoft Windows [Version 10.0.19043.1110]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\chauh>cd desktop
+
+C:\Users\chauh\Desktop>mkdir book
+
+C:\Users\chauh\Desktop>cd book
+
+C:\Users\chauh\Desktop\book>chapter1.txt
+'chapter1.txt' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\chauh\Desktop\book>"chapter1.txt"
+'"chapter1.txt"' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\chauh\Desktop\book>notepad chapter1.txt
+
+C:\Users\chauh\Desktop\book>start "" "chapter2.txt"
+The system cannot find the file chapter2.txt.
+
+C:\Users\chauh\Desktop\book>type nul>chaper2.txt
+
+C:\Users\chauh\Desktop\book>copy con chapter3.txt
+commmand for creating file //copy con testfile.txt//
+this command create file then you can add content to it
+
+collections in java
+^Z
+        1 file(s) copied.
+
+C:\Users\chauh\Desktop\book>git init
+Initialized empty Git repository in C:/Users/chauh/Desktop/book/.git/
+
+C:\Users\chauh\Desktop\book>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        chaper2.txt
+        chapter1.txt
+        chapter3.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\chauh\Desktop\book>git add chapter1.txt
+
+C:\Users\chauh\Desktop\book>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   chapter1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        chaper2.txt
+        chapter3.txt
+
+
+C:\Users\chauh\Desktop\book>git add .
+
+C:\Users\chauh\Desktop\book>
+C:\Users\chauh\Desktop\book>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   chaper2.txt
+        new file:   chapter1.txt
+        new file:   chapter3.txt
+
+
+C:\Users\chauh\Desktop\book>git commit -m "these are first three chapters"
+[master (root-commit) 9324c00] these are first three chapters
+ 3 files changed, 11 insertions(+)
+ create mode 100644 chaper2.txt
+ create mode 100644 chapter1.txt
+ create mode 100644 chapter3.txt
+
+C:\Users\chauh\Desktop\book>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\chauh\Desktop\book>git log
+commit 9324c00bf43ce5f8d522a4f19c7db6ebe882ce6b (HEAD -> master)
+Author: vinay5656 <vinaysinghchauhan565@gmail.com>
+Date:   Mon Aug 9 19:10:16 2021 +0530
+
+    these are first three chapters
+
+C:\Users\chauh\Desktop\book>notepad chapter4.txt
+
+C:\Users\chauh\Desktop\book>git add chapter4.txt
+
+C:\Users\chauh\Desktop\book>git commit -m "chapter 4 added by vinay"
+[master c68b95d] chapter 4 added by vinay
+ 1 file changed, 1 insertion(+)
+ create mode 100644 chapter4.txt
+
+C:\Users\chauh\Desktop\book>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\chauh\Desktop\book>git log
+commit c68b95d0c770ffc6d304a36f7acdb26a6003a222 (HEAD -> master)
+Author: vinay5656 <vinaysinghchauhan565@gmail.com>
+Date:   Mon Aug 9 19:17:06 2021 +0530
+
+    chapter 4 added by vinay
+
+commit 9324c00bf43ce5f8d522a4f19c7db6ebe882ce6b
+Author: vinay5656 <vinaysinghchauhan565@gmail.com>
+Date:   Mon Aug 9 19:10:16 2021 +0530
+
+    these are first three chapters
+
+C:\Users\chauh\Desktop\book>chapter2
+'chapter2' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\chauh\Desktop\book>chapter.txt
+'chapter.txt' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\chauh\Desktop\book>"chapter2.txt"
+'"chapter2.txt"' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\chauh\Desktop\book>start "" "chapter2.txt"
+The system cannot find the file chapter2.txt.
+
+C:\Users\chauh\Desktop\book>chapter3.txt
+
+C:\Users\chauh\Desktop\book>"chapter3.txt"
+
+C:\Users\chauh\Desktop\book>start "" "chapter3.txt"
+
+C:\Users\chauh\Desktop\book>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\chauh\Desktop\book>git log
+commit c68b95d0c770ffc6d304a36f7acdb26a6003a222 (HEAD -> master)
+Author: vinay5656 <vinaysinghchauhan565@gmail.com>
+Date:   Mon Aug 9 19:17:06 2021 +0530
+
+    chapter 4 added by vinay
+
+commit 9324c00bf43ce5f8d522a4f19c7db6ebe882ce6b
+Author: vinay5656 <vinaysinghchauhan565@gmail.com>
+Date:   Mon Aug 9 19:10:16 2021 +0530
+
+    these are first three chapters
+
+C:\Users\chauh\Desktop\book>type nul>chapter5.txt
+
+C:\Users\chauh\Desktop\book>git add .
+
+C:\Users\chauh\Desktop\book>git commit -m "chapter 5 added by ravi and loki"
+[master ec897ef] chapter 5 added by ravi and loki
+ 1 file changed, 1 insertion(+)
+ create mode 100644 chapter5.txt
+
+C:\Users\chauh\Desktop\book>git log
+commit ec897ef1afbbc15f7901ef2022e3f86b0c4c7595 (HEAD -> master)
+Author: vinay5656 <vinaysinghchauhan565@gmail.com>
+Date:   Mon Aug 9 19:26:34 2021 +0530
+
+    chapter 5 added by ravi and loki
+
+commit c68b95d0c770ffc6d304a36f7acdb26a6003a222
+Author: vinay5656 <vinaysinghchauhan565@gmail.com>
+Date:   Mon Aug 9 19:17:06 2021 +0530
+
+    chapter 4 added by vinay
+
+commit 9324c00bf43ce5f8d522a4f19c7db6ebe882ce6b
+Author: vinay5656 <vinaysinghchauhan565@gmail.com>
+Date:   Mon Aug 9 19:10:16 2021 +0530
+
+    these are first three chapters
+
+C:\Users\chauh\Desktop\book>echo > chapter5.txt
+
+C:\Users\chauh\Desktop\book>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   chapter5.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\chauh\Desktop\book>git diff chapter5.txt
+diff --git a/chapter5.txt b/chapter5.txt
+index d56556f..4d6a3b4 100644
+--- a/chapter5.txt
++++ b/chapter5.txt
+@@ -1 +1 @@
+-nonlinear datasturcture
+\ No newline at end of file
++ECHO is on.
+
+C:\Users\chauh\Desktop\book>git checkout chapter5.txt
+Updated 1 path from the index
+
+C:\Users\chauh\Desktop\book>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\chauh\Desktop\book>echo ajhhjbasjasbj > chapter5.txt
+
+C:\Users\chauh\Desktop\book>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   chapter5.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\chauh\Desktop\book>git diff
+diff --git a/chapter5.txt b/chapter5.txt
+index d56556f..266b5d7 100644
+--- a/chapter5.txt
++++ b/chapter5.txt
+@@ -1 +1 @@
+-nonlinear datasturcture
+\ No newline at end of file
++ajhhjbasjasbj
+
+C:\Users\chauh\Desktop\book>git restore chapter5.txt
+
+C:\Users\chauh\Desktop\book>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\chauh\Desktop\book>xsadhnjkasaf > chapter5.txt
+'xsadhnjkasaf' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\chauh\Desktop\book>abc>chapter5.txt
+'abc' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\chauh\Desktop\book>echo i will be the king of software industry > chapter5.txt
+
+C:\Users\chauh\Desktop\book>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   chapter5.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\chauh\Desktop\book>git diff chapter5.txt
+diff --git a/chapter5.txt b/chapter5.txt
+index d56556f..0be08c6 100644
+--- a/chapter5.txt
++++ b/chapter5.txt
+@@ -1 +1 @@
+-nonlinear datasturcture
+\ No newline at end of file
++i will be the king of software industry
+
+C:\Users\chauh\Desktop\book>del chapter5.txt
+
+C:\Users\chauh\Desktop\book>git log
+commit ec897ef1afbbc15f7901ef2022e3f86b0c4c7595 (HEAD -> master)
+Author: vinay5656 <vinaysinghchauhan565@gmail.com>
+Date:   Mon Aug 9 19:26:34 2021 +0530
+
+    chapter 5 added by ravi and loki
+
+commit c68b95d0c770ffc6d304a36f7acdb26a6003a222
+Author: vinay5656 <vinaysinghchauhan565@gmail.com>
+Date:   Mon Aug 9 19:17:06 2021 +0530
+
+    chapter 4 added by vinay
+
+commit 9324c00bf43ce5f8d522a4f19c7db6ebe882ce6b
+Author: vinay5656 <vinaysinghchauhan565@gmail.com>
+Date:   Mon Aug 9 19:10:16 2021 +0530
+
+    these are first three chapters
+
+C:\Users\chauh\Desktop\book>git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    chapter5.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\chauh\Desktop\book>git add chapter5.txt
+
+C:\Users\chauh\Desktop\book>git commit -m "edited by bhavesh, shrey, and ujjwal"
+[master b185052] edited by bhavesh, shrey, and ujjwal
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 chapter5.txt
+
+C:\Users\chauh\Desktop\book>git log
+commit b185052ff90aa9720f0eda1872e44b4661db7a76 (HEAD -> master)
+Author: vinay5656 <vinaysinghchauhan565@gmail.com>
+Date:   Mon Aug 9 19:38:31 2021 +0530
+
+    edited by bhavesh, shrey, and ujjwal
+
+commit ec897ef1afbbc15f7901ef2022e3f86b0c4c7595
+Author: vinay5656 <vinaysinghchauhan565@gmail.com>
+Date:   Mon Aug 9 19:26:34 2021 +0530
+
+    chapter 5 added by ravi and loki
+
+commit c68b95d0c770ffc6d304a36f7acdb26a6003a222
+Author: vinay5656 <vinaysinghchauhan565@gmail.com>
+Date:   Mon Aug 9 19:17:06 2021 +0530
+
+    chapter 4 added by vinay
+
+commit 9324c00bf43ce5f8d522a4f19c7db6ebe882ce6b
+Author: vinay5656 <vinaysinghchauhan565@gmail.com>
+Date:   Mon Aug 9 19:10:16 2021 +0530
+
+    these are first three chapters
+
+C:\Users\chauh\Desktop\book>
+
